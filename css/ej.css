@@ -1,0 +1,182 @@
+
+.all{
+    display: flex;
+    flex-direction: column;
+}
+
+nav div{
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background: #65132A;
+}
+
+nav{
+    position: absolute;
+    background: #65132A;
+}
+
+nav img{
+    width: 60px;
+    height: 30px;
+}
+
+nav a{
+    margin: 10px;
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+
+nav a:hover{
+    color: black;
+}
+
+.carrusel{
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+#fondo-letras{
+    background: rgba(0, 0, 0, 0.5);
+}
+
+#content{
+    overflow-x:hidden ;
+    background: #1A1A1A;
+}
+
+.motivacion{
+    display: flex;
+    background: #0C0C0C;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1%;
+}
+
+h1{
+    color: white;
+}
+
+h2{
+    color: white;
+}
+
+.con p{
+    font-size: 18px;
+    text-align: justify;
+    color: white;
+}
+
+
+.fill{
+    display: flex;
+    align-items: center;
+}
+
+#sidebar{
+    background: #0C0C0C;
+}
+
+form{
+    width: 33%;
+}
+
+label{
+    color: white;
+}
+
+
+
+input, textarea{
+    margin-bottom: 25px;
+    width: 100%;
+}
+
+textarea{
+    height: 150px;
+    resize: none;
+}
+
+.boton{
+    background: #65132A;
+    border: none;
+    color: white;
+}
+
+.boton:hover{
+    background: #360A17;
+    color: grey;
+}
+
+
+.divform{
+    display: flex;
+    flex-direction: column;
+}
+
+footer div{
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 30px;
+background: black;
+}
+
+footer p{
+    margin: 10px;
+    font-size: 15px;
+    color: white;
+}
+
+footer a{
+    margin: 10px;
+}
+
+footer img{
+    width: 33px;
+    height: 33px;
+}
+
+#sidebar p{
+    color: white;
+}
+
+#sidebar img{
+    border-radius: 3%;
+    width: 100%;
+    border: 2px solid white;
+}
+
+
+@media screen and (max-width: 1200px) {
+    .fill{
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 760px) {
+    .fill{
+        flex-direction: column;
+    }
+
+    #sidebar{
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+    .fill{
+        flex-direction: column;
+    }
+
+    #sidebar{
+        display: none;
+    }
+
+}

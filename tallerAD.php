@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="witdth-device-width, initial-scale-1.0">
+    <title>Football</title>
+    <link rel="stylesheet"  href="css/min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+</head> 
+<body>
+<?php include('nav.html')?>
+<br>
+    <section class="header">
+        <h1>Club de Ajedrez</h1>
+        <h4>Demuestrar tus habilidades y razonamiento</h4>
+    </section>
+    <hr>
+    <section class="content-container">
+        <div class="left-content">
+            <h2>Club de Ajedrez</h2>
+            <div class="articulo">
+                <img src="img/LOGOAJE.jpeg" alt="">
+                
+            </div>
+            <h3>Tienes el suficiente IQ?</h3>
+            <p>Tienes la vision necesaria para jugar ajedrez? si no, no te procupes con nostros aprenderas las bases de un jugador de este hermoso juego donde las mentes mas agiles son las triunfadoras, unete a nosotros ya que contamos con la ayuda del Maestro Anatoly Karpov que se conecta con nostros para compartir su experiencia como campeon del mundo.</p>
+            <div class="otro-articulo">
+                <h3>Entender las aperturas</h3>
+                <img src="img/ajedrez2.jpg" alt="">
+                <p> La apertura son las jugadas iniciales. Partiendo de la posición inicial, se han clasificado las distintas posibilidades que tienen cada uno de los bandos para conducir sus piezas. Se ha estudiado cada movimiento de las blancas, tras ése, cada posible respuesta de las negras, tras ése otra vez el de las blancas y así sucesivamente. En algunas líneas se han estudiado hasta la jugada 20 o más, se han clasificado, y están disponibles los análisis en los libros de aperturas de ajedrez.</p>
+                
+            </div>
+        </div>
+        <div class="right-content">
+        <div class="btn-admin">
+                <a  href="dbajedrez/admin-ajedrez.php">Administrar miembros</a>
+            </div>
+            <br>
+        <div class="avatar-content">
+            <img src="img/chessT.png" alt="">
+            <p class = "author-caption">De pocas partidas he aprendido tanto como de la mayoría de mis derrotas.</p>
+        </div>
+        <div class="newsletter">
+            <h5>¿QUIERES UNIRTE A ESTE CLUB? MANDA TU SOLICITUD</h5>
+            <form class="form" action="https://formspree.io/f/xbjwrbpj"
+            method="POST">
+                  <div class="divform">
+                    <input type="text" name="Nombre" placeholder="Nombre:" required>
+                    <input type="email" name="Correo" placeholder="Correo:" required>
+                    <input type="text" name="Matricula" placeholder="Matricula:" required>
+                    <input class="btn sub-btn" type="submit" value="Enviar">
+                  </div>
+                </form> 
+        </div>
+        <div class="newsletter">
+            <h5>REGISTRATE PARA ADQUIRIR LA SUDADERA DEL TALLER</h5>
+            <img src="img/hoodiechess.PNG" alt="">
+            <form class="form" action="https://formspree.io/f/xpzkgyze"
+            method="POST">
+                  <div class="divform">
+                    <input type="text" name="Nombre" placeholder="Nombre:" required>
+                    <input type="email" name="Correo" placeholder="Correo:" required>
+                    <input type="text" name="Matricula" placeholder="Matricula:" required>
+                    <input class="btn sub-btn" type="submit" value="Enviar">
+                  </div>
+                </form> 
+        </div>
+        <div class="popular-posts">
+            <h5>POPULAR POSTS</h5>
+            <img src="img/magnus.jpg" alt="">
+            <p class ="caption">Magnus Carlsen</p>
+            <img src="img/FabianoCaruana.jpeg" alt="">
+            <p class ="caption">Fabiano Caruana</p>  
+        </div>
+        </div>
+    </section>
+
+
+    <div id="disqus_thread">
+        <div class="disqus-size">
+            <script>
+                (function() { // DON'T EDIT BELOW THIS LINE
+                var d = document, s = d.createElement('script');
+                s.src = 'https://sswi-1.disqus.com/embed.js';
+                s.setAttribute('data-timestamp', +new Date());
+                (d.head || d.body).appendChild(s);
+                })();
+            </script>
+            <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+        </div>
+
+</div>
+
+
+    <footer>
+        Copyright reservado por Sebastian Mendoza
+    </footer>
+
+
+    <script id="dsq-count-scr" src="//sswi-1.disqus.com/count.js" async></script>
+</body>
+</html>  

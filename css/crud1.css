@@ -1,0 +1,31 @@
+.formulario input{
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.form-edit input, button{
+    margin-bottom: 10px;
+    width: 100%;
+    text-align: center;
+}
+
+.formulario a{
+    text-decoration: none;
+}
+.formulario a:hover{
+    text-decoration: underline;
+}
+
+p{
+    text-align: center;
+}
+
+tbody a{
+    text-decoration: none;
+}
+tbody a:hover{
+    text-decoration: underline;
+}
+
+
+
